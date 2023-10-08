@@ -6,7 +6,7 @@ int main()
     int a = 10;
     int *p, *q;
     p = &a;
-    cout << *p;
+    cout << *p << endl;
     //   q = *p; // pointers can only can addresses not the value of a int
     //    cout << q;
 
@@ -15,5 +15,9 @@ int main()
     q = (int *)malloc(5 * sizeof(int));
     // in c++ -->>
     q = new int[5];
-    
+
+    // Reference variable//
+    int x = 11;
+    int &r = x;
+    cout << r;
 }
