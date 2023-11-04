@@ -7,7 +7,7 @@ int main()
     int *p, *q;
     p = &a;
     cout << *p << endl;
-    //   q = *p; // pointers can only can addresses not the value of a int
+    //   q = *p; // pointers can only store addresses not the value of a int
     //    cout << q;
 
     // pointer to access heap
